@@ -33,3 +33,8 @@ running time : 454.697106052s
 8, [1, 2, 3, 4, 0, 5, 6, 7, 1]
 
 위와 같이 나온다.
+
+# 사용
+``` bash
+RUSTFLAGS="-C target-cpu=native -C lto -C codegen-units=1" cargo build --release
+```
