@@ -36,5 +36,5 @@ running time : 454.697106052s
 
 # 사용
 ``` bash
-RUSTFLAGS="-C target-cpu=native -C lto -C codegen-units=1" cargo build --release
+RUSTFLAGS="-C target-cpu=native" cargo build --release
 ```
